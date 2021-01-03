@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
     <xsl:output method="html" doctype-public="XSLT-compat" omit-xml-declaration="yes" encoding="UTF-8" indent="yes" />
     <xsl:template match="/">
-        <table id="bike-builder" border="1" class="indent">
+        <table id="bikebuilder" border="1" class="indent">
             <thead>
                 <tr>
                     <th colspan="6">Bike Builder</th>
@@ -17,7 +17,7 @@
                 </tr>
             </thead>
             <tbody>
-                <xsl:for-each select="/bike-builder/section">
+                <xsl:for-each select="/bikebuilder/section">
                     <tr>
                         <td colspan="6">
                             <xsl:value-of select="@component" />

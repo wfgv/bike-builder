@@ -3,7 +3,7 @@ var http = require('http'), //This module provides the HTTP server functionaliti
     express = require('express'), //This module allows this app to respond to HTTP Requests, defines the routing and renders back the required content
     fs = require('fs'), //This module allows to work witht the file system: read and write files back
     xmlParse = require('xslt-processor').xmlParse, //This module allows us to work with XML files
-    xsltProcess = require('xslt-processor').xsltProcess, //The same module allows us to utilise XSL Transformations
+    xsltProcess = require('xslt-processor').xsltProcess; //The same module allows us to utilise XSL Transformations
     xml2js = require('xml2js'); //This module does XML to JSON conversion and also allows us to get from JSON back to XML
 
 var router = express(); //We set our routing to be handled by Express
@@ -62,7 +62,7 @@ router.post('/post/json', function (req, res) {
         xmlFileToJs('bikeBuilder.xml', function (err, result) {
             if (err) throw (err);
             
-            result.bike-builder.section[obj.sec_n].entree.push({'brand': obj.brand, 'model': obj.model , 'colour': obj.colour, 'rating': obj.rating, 'price': obj.price});
+           result.bikebuilder.section[obj.sec_n].entree.push({'brand': obj.brand, 'model': obj.model , 'colour': obj.colour, 'rating': obj.rating, 'price': obj.price});
 
             console.log(JSON.stringify(result, null, "  "));
 
@@ -87,7 +87,7 @@ router.post('/post/delete', function (req, res) {
         xmlFileToJs('bikeBuilder.xml', function (err, result) {
             if (err) throw (err);
             
-            delete result.bike-builder.section[obj.section].entree[obj.entree];
+            delete result.bikebuilder.section[obj.section].entree[obj.entree];
 
             console.log(JSON.stringify(result, null, "  "));
 
