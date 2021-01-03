@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bike-builder>
+
+  <section component="Frame">
+    <entree popular="true">
+      <brand>Specialized</brand>
+      <model>Enduro</model>
+      <colour>Black</colour>
+      <rating>7/10</rating>
+      <price>449.90</price>
+    </entree>
+  </section>
+  
+  <section component="Wheels">
+    <entree popular="true">
+      <brand>Mavic</brand>
+      <model>DeeMax</model>
+      <colour>Black</colour>
+      <rating>8/10</rating>
+      <price>250.50</price>
+    </entree>
+  </section>
+  
+  <section component="Groupset">
+    <entree popular="true">
+      <brand>Shimanol</brand>
+      <model>XT</model>
+      <colour>Black</colour>
+      <rating>9/10</rating>
+      <price>256.50</price>
+    </entree>
+  </section>
+  
+  <section component="Brakes">
+    <entree>
+      <brand>Hope</brand>
+      <model>V4</model>
+      <colour>Blue</colour>
+      <rating>7/10</rating>
+      <price>160.50</price>
+    </entree>
+  </section>
+  
+</bike-builder>
