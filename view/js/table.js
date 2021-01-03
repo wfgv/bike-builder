@@ -1,3 +1,4 @@
+// JS Responsible for rendering table back to client
 function draw_table()
 {
 	$("#results").empty();

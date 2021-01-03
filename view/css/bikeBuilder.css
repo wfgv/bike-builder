@@ -23,16 +23,28 @@ table, th, td {
  table {
      border-collapse: collapse;
      width:100%;
+     background-color: rgb(205, 207, 207);
 }
  td, th {
-     border: 1px solid #ced4da;
+     border: 1px solid #2f2f30;
      padding: 0.5rem;
      text-align: left;
+     font-weight: bold;
+     
 }
  th {
      font-weight: bold;
 }
 .selected {
-            background-color: #dc3545;
+            background-color: #2281ee;
             color: #FFF;
+} /* CheckBox Styling Size + Margin */
+input[type=checkbox] {
+    transform: scale(2.0);
+    margin-left: 20px;
+    
+    
+}
+.btn{ /* Button Styling */
+    background-color: rgb(24, 78, 24);
 }

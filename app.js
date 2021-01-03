@@ -52,7 +52,7 @@ router.get('/get/html', function(req, res) {
     res.end(result.toString()); //Send the result back to the user, but convert to type string first
 
 });
-
+// ADDING TO LIST FUNCTION
 router.post('/post/json', function (req, res) {
 
     function appendJSON(obj) {
@@ -77,7 +77,7 @@ router.post('/post/json', function (req, res) {
     res.redirect('back');
 
 });
-
+// DELETE FROM LIST FUNCTION
 router.post('/post/delete', function (req, res) {
 
     function deleteJSON(obj) {

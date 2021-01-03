@@ -8,6 +8,20 @@
       <rating>8/10</rating>
       <price>450.50</price>
     </entree>
+    <entree>
+      <brand>Giant</brand>
+      <model>Glory</model>
+      <colour>Blue</colour>
+      <rating>6/10</rating>
+      <price>365.90</price>
+    </entree>
+    <entree>
+      <brand>Scott</brand>
+      <model>Ransom</model>
+      <colour>Silver</colour>
+      <rating>9/10</rating>
+      <price>567.90</price>
+    </entree>
   </section>
   <section component="Wheels">
     <entree>
@@ -17,14 +31,42 @@
       <rating>8/10</rating>
       <price>250.50</price>
     </entree>
+    <entree popular="true">
+      <brand>Halo</brand>
+      <model>Pro</model>
+      <colour>Silver</colour>
+      <rating>6/10</rating>
+      <price>199.90</price>
+    </entree>
+    <entree>
+      <brand>Syncross</brand>
+      <model>Forte</model>
+      <colour>Black</colour>
+      <rating>4/10</rating>
+      <price>155.50</price>
+    </entree>
   </section>
   <section component="Groupset">
-    <entree popular="true">
+    <entree>
       <brand>Shimanol</brand>
       <model>XT</model>
       <colour>Black</colour>
       <rating>9/10</rating>
       <price>256.50</price>
+    </entree>
+    <entree>
+      <brand>SRAM</brand>
+      <model>GX</model>
+      <colour>Black</colour>
+      <rating>7/10</rating>
+      <price>199.90</price>
+    </entree>
+    <entree popular="true">
+      <brand>SunRace</brand>
+      <model>Tourney</model>
+      <colour>Silver</colour>
+      <rating>4/10</rating>
+      <price>99.90</price>
     </entree>
   </section>
   <section component="Brakes">
@@ -34,6 +76,20 @@
       <colour>Blue</colour>
       <rating>7/10</rating>
       <price>160.50</price>
+    </entree>
+    <entree popular="true">
+      <brand>Shimano</brand>
+      <model>Saint</model>
+      <colour>Black</colour>
+      <rating>9/10</rating>
+      <price>170.90</price>
+    </entree>
+    <entree>
+      <brand>Formula</brand>
+      <model>Deore</model>
+      <colour>Gold</colour>
+      <rating>6/10</rating>
+      <price>95.40</price>
     </entree>
   </section>
 </bikebuilder>

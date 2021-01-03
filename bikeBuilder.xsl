@@ -8,7 +8,7 @@
                     <th colspan="6">Bike Builder</th>
                 </tr>
                 <tr>
-                    <th>Select</th>
+                    <th>Component</th>
                     <th>Brand</th>
                     <th>Model</th>
                     <th>Colour</th>
